@@ -14,8 +14,8 @@ primes = [0 for i in range(2,n+1)]
 j = 0
 for p in range(2,n+1):
 if(isPrime[p]):
-primes[j] = p
-j += 1
+    primes[j] = p
+    j += 1
 for k in range(j):
 if(isPrime[k+1]):
 print (primes[k],end=" ")
